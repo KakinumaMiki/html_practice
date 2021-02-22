@@ -1,0 +1,59 @@
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.wrapper .bg_green {
+  background: green;
+  overflow: auto;
+}
+
+.wrapper .bg_green .black_box {
+  background: #000000;
+  width: 150px;
+  height: 150px;
+  float: left;
+  text-align: center;
+  margin: 15px;
+}
+
+.wrapper .bg_green .black_box.farst {
+  margin-left: 150px;
+}
+
+.wrapper .bg_green .black_box .text_box {
+  color: silver;
+  text-align: center;
+  line-height: 150px;
+}
+
+.wrapper .bg_green .item {
+  float: left;
+  /* height: 215px; */
+  height: 245px;
+  margin: 15px;
+}
+
+.wrapper .bg_green .item.red_box {
+  background: red;
+  width: 180px;
+  /* padding: 15px; */
+}
+
+.wrapper .bg_green .item.red_box .black_box{
+  float: none;
+  padding: 0px;
+}
+
+.wrapper .bg_green .item.red_box .bottom_box {
+  background: bisque;
+  height: 45px;
+  margin: 15px;
+}
+
+.wrapper .bg_green .item.orange_box {
+  background: orange;
+  width: 545px;
+  margin-left: 0px;
+  padding: 15px;
+}
