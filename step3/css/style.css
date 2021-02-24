@@ -56,10 +56,10 @@
 }
 
 .wrapper .bg_green .black_box2 .box {
-  padding-right: 10px;
+  margin-right: 10px;
   vertical-align: bottom;
 }
 
-.wrapper .bg_green .black_box2 .box.last {
-  padding-right: 0px;
+.wrapper .bg_green .black_box2 img:last-child {
+  margin-right: 0px;
 }
