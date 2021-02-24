@@ -9,27 +9,22 @@
 }
 
 .wrapper .bg_green .black_box {
-  background: #000000;
   width: 150px;
   height: 150px;
   float: left;
-  text-align: center;
   margin: 15px;
 }
 
 .wrapper .bg_green .black_box.farst {
-  margin-left: 150px;
+  margin-left: 160px;
 }
 
-.wrapper .bg_green .black_box .text_box {
-  color: silver;
-  text-align: center;
-  line-height: 150px;
+.wrapper .bg_green .black_box.other {
+  margin-left: 0%;
 }
 
 .wrapper .bg_green .item {
   float: left;
-  /* height: 215px; */
   height: 245px;
   margin: 15px;
 }
@@ -37,7 +32,6 @@
 .wrapper .bg_green .item.red_box {
   background: red;
   width: 180px;
-  /* padding: 15px; */
 }
 
 .wrapper .bg_green .item.red_box .black_box{
@@ -46,14 +40,15 @@
 }
 
 .wrapper .bg_green .item.red_box .bottom_box {
-  background: bisque;
-  height: 45px;
+  background: brown;
+  height: 50px;
   margin: 15px;
 }
 
 .wrapper .bg_green .item.orange_box {
   background: orange;
   width: 545px;
+  height: 215px;
   margin-left: 0px;
   padding: 15px;
 }
