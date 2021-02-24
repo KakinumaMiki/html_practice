@@ -1,0 +1,65 @@
+.wrapper {
+  width: 800px;
+  margin: auto;
+}
+
+.wrapper .bg_green {
+  background: green;
+  position: relative;
+}
+
+.wrapper .bg_green.contents1 {
+  height: 275px;
+}
+
+.wrapper .bg_green.contents2 {
+  text-align: center;
+}
+
+.wrapper .bg_green .red_box {
+  background: red;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  bottom: 15px;
+  width: 180px;
+}
+
+.wrapper .bg_green .red_box .black_box {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.wrapper .bg_green .black_box2 {
+  padding: 15px;
+  
+}
+
+.wrapper .bg_green .red_box .bottom_box {
+  background: brown;
+  position: absolute;
+  top: 180px;
+  left: 15px;
+  bottom: 15px;
+  right: 15px;
+}
+
+.wrapper .bg_green .orange_box {
+  background: orange;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  left: 210px;
+  padding: 15px;
+}
+
+.wrapper .bg_green .black_box2 .box {
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.wrapper .bg_green .black_box2 img:last-child {
+  margin-right: 0px;
+}
