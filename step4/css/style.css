@@ -63,11 +63,6 @@ h2 {
 .contents{
   text-align: center;
 }
-
-.topimg {
-  margin-top: 20px;
-  text-align: center;
-}
 .bg {
   display: inline-block;
   width: 284px;
@@ -105,7 +100,6 @@ h2 {
   line-height: 3;
   display: table-cell;
   vertical-align: middle;
-  
 }
 .border {
   display: inline-block;
@@ -148,6 +142,7 @@ h2 {
   background: #2D4586;
 }
 .sentence2 {
+  margin: 10px;
   position: absolute;
   top: 5px;
   right: 5px;
