@@ -5,10 +5,12 @@
 }
 .header .logo {
   display: inline-block;
+  vertical-align: middle;
 }
 .header .list {
   display: inline-block;
   list-style: none;
+  vertical-align: middle;
 }
 .header .list li {
   display: inline-block;
