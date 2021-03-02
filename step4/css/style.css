@@ -111,3 +111,46 @@ h2 {
   display: inline-block;
   border-bottom: 1px solid white;
 }
+
+
+/* Profileの追加した部分 */
+.prodesc2 {
+  border: solid 1px black;
+  position: relative;
+  width: 900px;
+  height: 262px;
+}
+.image2 {
+  position: absolute;
+  width: 260px;
+  height: 240px;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+}
+.proimg2 {
+  display: inline-table;
+  border-spacing: 20px 5px;
+}
+.icon2 {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 10px;
+  width: 100px;
+  height: 45px;
+  color: white;
+  border-radius: 3px; /* 角丸 */
+}
+.icon2.twitter {
+  background: #358EEF;
+}
+.icon2.facebook {
+  background: #2D4586;
+}
+.sentence2 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 265px;
+}
