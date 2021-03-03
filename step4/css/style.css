@@ -29,20 +29,18 @@ h2 {
 .prodesc {
   border: solid 1px black;
 }
-.image {
+.catch {
   display: inline-block;
   width: 260px;
   margin: 10px 5px;
   text-align: center;
 }
 .proimg {
-  display: inline-table;
   border-spacing: 20px 5px; /* セルの間に空白 */
 }
 .icon {
   display: table-cell;
   vertical-align: middle;
-  margin: 10px;
   width: 100px;
   height: 45px;
   color: white;
@@ -113,7 +111,7 @@ h2 {
   position: relative;
   height: 262px;
 }
-.image2 {
+.catch2 {
   position: absolute;
   width: 260px;
   height: 240px;
@@ -128,7 +126,6 @@ h2 {
 .icon2 {
   display: table-cell;
   vertical-align: middle;
-  margin: 10px;
   width: 100px;
   height: 45px;
   color: white;
@@ -141,10 +138,5 @@ h2 {
   background: #2D4586;
 }
 .sentence2 {
-  margin: 10px;
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 265px;
+  margin-left: 265px;
 }
