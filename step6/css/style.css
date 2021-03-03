@@ -1,0 +1,97 @@
+.header {
+  background-color: #293f65;
+}
+
+.header .logo {
+  width: 960px;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.wrapper.bg_img {
+  background-image: url(../img/head_bg.jpg);
+  background-size: cover;
+}
+
+.wrapper.bg_blue {
+  background-color: #293f65;
+  color: white;
+}
+
+.wrapper .container {
+  width: 960px;
+  margin: auto;
+  padding: 90px 0;
+}
+
+.wrapper .container .head {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.wrapper .container .head .frase {
+  width: 100%;
+  color: white;
+  margin: 10px 0;
+}
+
+.wrapper .container .head .skills {
+  display: inline;
+  background-color: white;
+}
+
+.wrapper .container .head_line {
+  text-align: center;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  width: 180px;
+  margin: auto;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.wrapper .container .img_box {
+  text-align: center;
+}
+
+.wrapper .container .text_box {
+  padding: 30px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .header {
+    padding: 10px;
+  }
+  .header .logo {
+    width: 100%;
+  }
+  .wrapper .container {
+    width: 100%;
+    padding: 90px 0;
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .header .logo {
+    text-align: center;
+  }
+
+  .wrapper.bg_img {
+    background-position: center;
+  }
+
+  .wrapper .container .head .skills {
+    display: none;
+  }
+
+  .wrapper .container .text_box {
+    text-align: center;
+    line-height: 2;
+  }
+}
