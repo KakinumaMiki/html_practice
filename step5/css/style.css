@@ -19,6 +19,36 @@ h2 {
   text-align: center;
 }
 
+.profile_description {
+  border: solid 1px black;
+  overflow: auto;
+  padding: 15px;
+}
+.catch {
+  text-align: center;
+  width: 270px;
+  float: left;
+}
+.icon {
+  display: inline-block;
+  padding: 10px 0;
+  width: 100px;
+  color: white;
+  border-radius: 3px; /* 角丸 */
+  margin-right: 10px;
+}
+.icon:last-child{
+  margin-right: 0;
+}
+.icon.twitter {
+  background: #358EEF;
+}
+.icon.facebook {
+  background: #2D4586;
+}
+.sentence {
+  padding: 10px;
+}
 
 .contents{
   text-align: center;
@@ -79,10 +109,21 @@ h2 {
   .list {
     display: none;
   }
+
+  .catch {
+    width: 100%;
+    text-align: center;
+  }
+  .sentence {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+
+
   .contents {
     text-align: start;
   }
-
   .bg {
     text-align: center;
     width: 48%;
